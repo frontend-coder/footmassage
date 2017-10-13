@@ -1,0 +1,39 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=dd756061b99b30782a31)
+ normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+body{
+  margin: 0px 0px 0px 0px;
+}
+.container {
+/*   margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; */
+width: 1170px;
+margin: 0 auto;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after
+ {
+  clear: both;
+}
+.clearfix {
+   overflow: auto;
+zoom: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+

@@ -1,0 +1,32 @@
+@import '_var.scss';
+//  font-family: "Ubuntu", sans-serif;
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/UbuntuRegular/UbuntuRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/UbuntuRegular/UbuntuRegular.woff") format("woff"),
+	url("../fonts/UbuntuRegular/UbuntuRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "UbuntuLight";
+	src: url("../fonts/UbuntuLight/UbuntuLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/UbuntuLight/UbuntuLight.woff") format("woff"),
+	url("../fonts/UbuntuLight/UbuntuLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "UbuntuLightItalic";
+	src: url("../fonts/UbuntuLightItalic/UbuntuLightItalic?#iefix")format("embedded-opentype"),
+	url("../fonts/UbuntuLightItalic/UbuntuLightItalic.woff") format("woff"),
+	url("../fonts/UbuntuLightItalic/UbuntuLightItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+

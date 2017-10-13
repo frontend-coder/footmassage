@@ -1,0 +1,71 @@
+@import '_var.scss';
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+    font-size: 16px;
+  line-height: 1.2;
+	margin:0;
+	padding:0;
+-webkit-backface-visibility:hidden;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+body {
+font-family: Georgia, serif;
+font-size: 16px;
+line-height: 1.2;
+position: relative;
+color: #666;
+-webkit-backface-visibility:hidden;
+overflow-x: hidden;
+-webkit-font-smoothing:antialised;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+a {
+	outline: 0;
+}
+
+.hidden {
+	display: none;
+}
+// стили оформления хедера сайта
+
+// @import '_fonts.scss';
+@import '_header.scss';
+@import '_allstyle.scss';
+@import '_vseforms.scss';
+@import '_media.scss';
+
+
